@@ -1,0 +1,11 @@
+<div class="hr"></div>
+<form #myForm="ngForm" ngSubmit="Submit(myForm)" novalidate>
+  <textarea placeholder="Career Objective" class="form-control" type="text" name="name" ngModel (input)="Check()" required pattern="^\\d{4,4}$">
+
+  </textarea>
+      
+  <button (click)="Submit(myForm)">Submit</button>
+</form>
+
+<pre>{{myForm.value | json}}</pre>
+

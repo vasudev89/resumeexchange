@@ -1,0 +1,24 @@
+.header{
+
+padding: 20px;
+color: #AA0000;
+
+box-shadow: 1px 1px 2px #AAA !important;
+
+z-index: 10;
+position: relative;
+
+margin-bottom: 0px;
+
+background: white;
+
+}
+
+.header12{
+    background: brown;
+    color: white;
+}
+
+.fontSizeHeader{
+    font-size: 2.5em;
+}
